@@ -273,3 +273,5 @@ app.MapPost("/api/ask", async ([FromBody] string prompt, IOpenAIService ai) =>
 
 
 app.Run();
+
+// test CI
